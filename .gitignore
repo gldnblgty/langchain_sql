@@ -1,0 +1,7 @@
+.pytest*
+.ruff*
+.tox
+__pycache__*
+.vscode
+.venv
+sqlite*
