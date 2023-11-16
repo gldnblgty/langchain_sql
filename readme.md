@@ -1,7 +1,8 @@
-### Create a virtual environment
+### General
 
-Data is taken from https://www.kaggle.com/datasets/ymaricar/cmu-book-summary-dataset/
+Data is taken from https://www.kaggle.com/datasets/ymaricar/cmu-book-summary-dataset/ and then limited with just a set of books.
 
+The code shows how to give the agent role of Literary Analyst as well as limit OpenAI Langchain with an existing data and control the LLM replies.
 
 ### Create a virtual environment
 
@@ -65,3 +66,10 @@ docker run -d --name myfastapiapp -p 80:80 -e OPENAI_API_KEY=your_api_key_here m
 
 docker run --rm -it myfastapiapp /bin/bash
 ```
+
+### Other
+
+- ![Comparison](assets/1.png)
+- ![2](assets/2.png)
+- ![3](assets/3.png)
+- ![4](assets/4.png)
