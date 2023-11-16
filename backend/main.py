@@ -55,8 +55,8 @@ async def root():
     return {"message": "Hello World"}
 
 
-@app.post("/answer")
-def answer_query(query: Query, chain: Chain = Depends(get_chain)):
+@app.post("/response")
+def response(query: Query, chain: Chain = Depends(get_chain)):
     try:
         response_data = chain.query(query.query)
         return {"response": response_data}
